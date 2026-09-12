@@ -2,6 +2,9 @@ package net.gim.craftfoundry;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gim.craftfoundry.block.ModBlocks;
+import net.gim.craftfoundry.creativemodetab.ModCreativeModeTabs;
+import net.gim.craftfoundry.item.ModItems;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -14,8 +17,10 @@ public class CraftFoundry implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
-		LOGGER.info("Hello Fabric world!");
+		ModCreativeModeTabs.registerModCreativeModeTabs();
 	}
 
 	public static Identifier id(String path) {
