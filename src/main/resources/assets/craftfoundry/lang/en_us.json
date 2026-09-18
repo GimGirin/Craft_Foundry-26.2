@@ -3,7 +3,11 @@
   "item.craftfoundry.core_1": "Core: Grade 1",
 
 
+  "block.craftfoundry.core_1_block": "Block of Cores: Grade 1",
   "block.craftfoundry.core_1_ore_block": "Core Ore: Grade 1",
+  "block.craftfoundry.deepslate_core_1_ore_block": "Deepslate Core Ore: Grade 1",
+  "block.craftfoundry.nether_core_1_ore_block": "Nether Core Ore: Grade 1",
+  "block.craftfoundry.end_core_1_ore_block": "End Core Ore: Grade 1",
 
 
 

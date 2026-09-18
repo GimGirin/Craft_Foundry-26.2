@@ -29,7 +29,11 @@ public class ModCreativeModeTabs {
             FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CORE_1_ORE_BLOCK))
                     .title(Component.translatable("creativemodetab.craftfoundry.mod_main"))
                     .displayItems((parameters, output) -> {
+                        output.accept(ModBlocks.CORE_1_BLOCK);
                         output.accept(ModBlocks.CORE_1_ORE_BLOCK);
+                        output.accept(ModBlocks.DEEPSLATE_CORE_1_ORE_BLOCK);
+                        output.accept(ModBlocks.NETHER_CORE_1_ORE_BLOCK);
+                        output.accept(ModBlocks.END_CORE_1_ORE_BLOCK);
                     })
 
 

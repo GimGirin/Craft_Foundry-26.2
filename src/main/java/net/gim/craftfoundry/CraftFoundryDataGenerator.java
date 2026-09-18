@@ -3,6 +3,7 @@ package net.gim.craftfoundry;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.gim.craftfoundry.datagen.ModModelProvider;
+import net.minecraft.core.RegistrySetBuilder;
 
 public class CraftFoundryDataGenerator implements DataGeneratorEntrypoint {
 	@Override
