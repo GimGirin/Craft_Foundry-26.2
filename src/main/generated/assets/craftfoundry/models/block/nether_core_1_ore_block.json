@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "craftfoundry:block/nether_core_1_ore_block"
+  }
+}

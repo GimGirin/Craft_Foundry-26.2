@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "craftfoundry:block/core_1_ore_block"
+    }
+  }
+}

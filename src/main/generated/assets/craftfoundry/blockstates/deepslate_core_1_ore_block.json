@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "craftfoundry:block/deepslate_core_1_ore_block"
+    }
+  }
+}
